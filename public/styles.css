@@ -1,0 +1,76 @@
+.navbar{
+    padding: 15px 10%;
+}
+
+.bg-navbar{
+  background-color:#1C3879/*   
+  background-image: linear-gradient(to left, rgba(255,0,0,0), #e3f2fd); */
+}
+
+title{
+  font-family: 'Raleway', sans-serif;
+  font-stretch: expanded;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.navbar-nav{
+    padding-left: 70%;
+}
+.card{
+    max-width: 80rem;
+    max-height: 31rem;
+    margin-left: auto;
+  margin-right: auto; 
+}
+
+font-all{
+  font-family: 'Raleway', sans-serif;
+}
+h2{
+  padding-bottom: 5%;
+}
+.product-title{
+  background-color: #1C3879;
+  color: aliceblue;
+  font-weight: bolder;
+  padding-top: 2.5rem; 
+  padding-bottom: 2rem;
+}
+.aboutus{
+  background-color: #1C3879;
+  color: aliceblue;
+  font-weight: bolder;
+  padding-top: 1rem; 
+  padding-bottom:2rem;
+
+}
+.bg-products{
+  background-color: #F9F5EB;
+}
+
+#footer{
+  text-align: center;
+  background-color: #1C3879;
+  color: aliceblue;
+  padding-top: 2.5rem; 
+  padding-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+
+  font-weight:400 ;
+}
+.p-about{
+  margin: auto;
+  padding: 0rem 10rem;
+  padding-bottom: 2rem;
+  
+
+}
+.contact{
+  
+}
+
