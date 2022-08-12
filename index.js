@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express=require("express");
 const app=express();
 app.set("view engine", "ejs");
@@ -14,6 +15,6 @@ app.get("/contact",(req,res)=>{
     res.render("contact")
     })
 
-app.listen(process.env.PORT,()=>{
-    console.log("Server is running on http://localhost:3000");
-})
+    app.listen(process.env.PORT || 3000, function(){
+        console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+      });
