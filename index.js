@@ -14,6 +14,6 @@ app.get("/contact",(req,res)=>{
     res.render("contact")
     })
 
-app.listen(3000||process.env.PORT,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Server is running on http://localhost:3000");
 })
